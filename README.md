@@ -15,6 +15,20 @@ Here in this application you will see 3 cards with some data and if you want to 
 | React.JS | express.JS | Passport.JS |
 | --- | --- | --- |
 
+## Dependencies Installed
+```
+npm install react-icons --save
+npm install react-router-dom
+npm install express
+npm install passport
+npm install cors
+npm install nodemon
+npm install cookie-session
+npm install passport-google-oauth20
+npm install passport-github2
+npm install passport-facebook
+```
+
 ## Preview
 <p align="Center">
   <img src="https://github.com/TheNewC0der-24/Login-with-Passport.JS/blob/master/Preview/Preview-1.png" width="400">
