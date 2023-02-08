@@ -5,6 +5,7 @@ const passportSetup = require("./passport");
 const passport = require("passport");
 const authRoute = require("./routes/auth");
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.use(
   cookieSession({ name: "session", keys: ["auth"], maxAge: 24 * 60 * 60 * 100 })
@@ -23,6 +24,6 @@ app.use(
 
 app.use("/auth", authRoute);
 
-app.listen("5000", () => {
-  console.log("Server is running!");
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
